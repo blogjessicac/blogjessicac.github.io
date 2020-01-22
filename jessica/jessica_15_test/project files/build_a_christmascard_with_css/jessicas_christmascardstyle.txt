@@ -1,5 +1,0 @@
-img {width: 50px;}
-
-#bow {}
-#bow {position: absolute; top:200; left:150;}
-
