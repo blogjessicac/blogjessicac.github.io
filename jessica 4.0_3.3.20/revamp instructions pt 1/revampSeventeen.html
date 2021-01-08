@@ -1,0 +1,244 @@
+<!--
+
+****************************these is notes************************-->
+<!doctype html>
+<head>
+	<title>How to HTML your RPG</title>
+	<link rel="stylesheet" href="../instructionSheetStyles.css">
+</head>
+<!--********************break between head and body****************-->
+<body>
+
+<div class="topnav">
+	<a href="revampTen.html">coding points index:</a>
+	<a href="revampEleven.html">one</a>
+	<a href="revampTwelve.html">two</a>
+	<a href="revampThirteen.html">three</a>
+	<a href="revampFourteen.html">four</a>
+	<a href="revampFifteen.html">five</a>
+	<a href="revampSixteen.html">six</a>
+	<a href="revampSeventeen.html">seven</a>
+	<a href="revampEighteen.html">eight</a>
+	<a href="revampNineteen.html">nine</a>
+</div>
+
+<h1>The Coding Homestretch!</h1>
+
+<p>
+We are on a roll now! Before I let you loose to code your map we have just a few more things to cover.</p>
+
+<ol>
+<li>Adding Padding</li>
+<li>Creating a Templet and a Style Sheet</li>
+<li>Dialouge Options</li>
+</ol>
+
+
+<p>First off, adding padding. Padding can make our page look a little more professional by adding some space around the edges of our page. So the text will not run from the very beginning to the very end of our page. Most web pages have some empty space around all the edges, but right now ours does not. To add some, we need to add some tags in our head section. Go to the head section of your Mom Pigs House Page. Then make some space under your title tag and type the following:</p>
+
+<h2>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lthead&gt <!--HEAD-->
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lttitle&gt Mom Pigs House &lt/title&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltstyle&gt body {padding:60px;} &lt/style&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/head&gt<!--/HEAD-->
+</h2>
+
+<p>Once you save and refresh your web browser, the page should look something like this:</p>
+
+<img src="pictures/momPigsHousePadded.JPG" alt="Mom Pigs House Padded">
+
+<p>Notice how now the text does not run all the way across the page and how far down the header has come. That is because a 60-pixel, or 60px, area around the body container has been formed, and that is providing the extra space. You can play with the amount of padding that you want. I used 60px to ensure that you could see the difference. Add style container to the head of the Mom Pigs House Well page, along with whatever amount of padding that you decide on. Whatever amount of pixels you decide on be sure to add it in both your Mom Pigs House page as well as your Mom Pigs House Well page.
+</p>
+
+
+<p>Let's talk Templets and Style Sheets! I don't know about you but changing something in Mom Pigs House to style the page up and then going into Mom Pigs House well to add a few lines a code was a pain. What if we had like five pages instead of two, or five-hundred! There has got to be an easier way to change things, right? There is, and it is called a cascading style sheet, or CSS.</p>
+
+<p> CSS is used to format the layout of a webpage, or add style. The great thing about it is its one document that you can link to as many pages as you want. So, if you change one thing on the CSS document, it changes that same thing on all your pages, weather its 2, 5, or 500! To make a style sheet open a new notepad document and save it as threeLittlePigsStyles.css in your three little pigs folder with your web pages. Now remember what style we added to our Pig Moms House and Pig Moms House Well pages? We had a title tag and a style tag. Unfortunately, each page needs its own title tag, so that will remain. As far as the style tag goes we are going to transfer that info to our CSS page. At the top of your CSS page type the following:</p>
+
+<h2>
+body  {padding:60px;}
+</h2>
+
+<p>
+Now complete the Most Important Step, and open your Mom Pigs House Page. in the head section replace the style tag with a link tag:</p>
+
+<h2>&ltlink rel="stylesheet" href=" "&gt</h2>
+
+<p>Whenever you use this tag always include rel="stylesheet" or the tag will not work. For the href attribute you are going to put the file name of your style sheet in between the " ", in our case it is threeLittlePigsStyles.css. Be sure that your style sheet is saved in the same folder as your web pages. Open your Mom Pigs House Well page and add the Link tag above where the style tag is now in the head section. After you save you should now be able to reload your browser and see your Mom Pigs House and Mom Pigs House Well pages with padding around them. </p>
+
+<p> Now let’s talk about templets. A template is something we can use as a pattern for all our web pages. Since we have Mom Pigs House Page the way we want it for now all we need to do is open either one of those pages. Next, we want to Save As, NOT SAVE! Save the page as templet, I like to save the templet as a .txt file. That way I’m less likely to over save a web page incorrectly as they are different file types. Since we have now saved as a different file type and a different name we can delete all the text, not the code! it should look something like this:</p>
+
+<h2>
+&lt!Doctype html&gt 
+<br>
+&lthtml&gt
+<br>
+<br>
+ &nbsp &nbsp &nbsp &nbsp &nbsp &lthead&gt <!--HEAD-->
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lttitle&gt  &lt/title&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltlink rel="stylesheet"href="threeLittlePigsSyles.css"&gt <br>
+ &nbsp &nbsp &nbsp &nbsp &nbsp &lt/head&gt<!--/HEAD-->
+<br>
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltbody&gt<!--BODY-->
+<br>
+<br>
+&lth1&gt  &lt/h1&gt
+<br>
+<br>
+&ltp&gt<br>      
+<br>&lt/p&gt
+<br>
+<br>
+&ltul&gt<br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go North &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go South &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go East &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go West &lt/a&gt <br>
+&lt/ul&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/body&gt<!--/BODY-->
+<br>
+<br>
+&lt/html&gt
+</h2>
+</p>
+
+<p>
+Once you save, you will now have a templet. Every time you go to make a new page just open your templet, type in the new information, SAVE AS, name the page and end with an .html extension, and you are all set.
+</p>
+
+
+<p>
+Now Onward towards Dialogue Options. All your pages do not have to go in directions. Remember those dialogue options we skipped over earlier? Let’s skip ahead and make the page where the pigs run into the man with straw. Instead of direction let’s give our player a dialogue prompt on what to do. Below is my example but I want you to add your own dialogue and choices:</p>
+
+<h2>
+&lt!Doctype html&gt 
+<br>
+&lthtml&gt
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lthead&gt <!--HEAD-->
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lttitle&gtMan With Straw&lt/title&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltlink rel="stylesheet" href="threeLittlePigsStyles.css" &gt<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/head&gt<!--/HEAD-->
+<br>
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltbody&gt<!--BODY-->
+<br>
+<br>
+&lth1&gtThe Man With Straw&lt/h1&gt
+<br>
+<br>
+&ltp&gtThe pigs encounter a man carrying a large harvest of straw. The first pig gets very excited. "Oh!" He shouts "What lovely straw, I bet that would make a mighty fine house." The Man looks at the pig smiling. "Thank you for complementing my straw. If you would like to build a house it would be my honor to give you enough straw for a house. Though I’m not sure how sturdy it would be." The pig’s brothers pipe in, "Are you really going to build a house out of straw brother?!"      
+<br>&lt/p&gt
+<br>
+<br>
+&ltul&gt<br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt "Why yes!" the first Pig shouts. &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Never, I need a sturdy house. Lovely straw though. &lt/a&gt <br>
+&lt/ul&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/body&gt<!--/BODY-->
+<br>
+<br>
+&lt/html&gt
+</h2>
+</p>
+
+<p>
+You can then for example make a game over page and link it to the "Never, I need a sturdy house. Lovely straw though." option. If the user picks the "Why yes!" option it can link to a page that says the pig gathered the straw and you can bring back the directional options.</p>
+
+<h2>
+&lt!Doctype html&gt 
+<br>
+&lthtml&gt
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lthead&gt <!--HEAD-->
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lttitle&gtGame Over&lt/title&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltlink rel="stylesheet" href="threeLittlePigsStyles.css&gt<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/head&gt<!--/HEAD-->
+<br>
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltbody&gt<!--BODY-->
+<br>
+<br>
+&lth1&gtGame Over&lt/h1&gt
+<br>
+<br>
+&ltp&gtThe first Pig decided not to build a straw house. Problem is everyone knows how the Three Little Pigs Story goes, and in that story the first pig most definitely built a house out of straw. After which he most definitely gets eaten by a wolf. If he does not get eaten, it’s not the story of the three little pigs, and that’s not the story we are telling here.
+<br>&lt/p&gt
+<br>
+<br>
+&lth1&gtGame Over!&lt/h1&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/body&gt<!--/BODY-->
+<br>
+<br>
+&lt/html&gt
+</h2>
+
+<p> Or </p>
+
+<h2>
+&lt!Doctype html&gt 
+<br>
+&lthtml&gt
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lthead&gt <!--HEAD-->
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lttitle&gtPath To Town&lt/title&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltlink rel="stylesheet" href="threeLittlePigsStyles.css"&gt<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/head&gt<!--/HEAD-->
+<br>
+<br>
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &ltbody&gt<!--BODY-->
+<br>
+<br>
+&lth1&gtPath To Town&lt/h1&gt
+<br>
+<br>
+&ltp&gtThe first pig thanked the man. Then he gathered up the straw and rushed off to build his new house. Which way does he go?      
+<br>&lt/p&gt
+<br>
+<br>
+&ltul&gt<br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go North &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go South &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go East &lt/a&gt <br>
+&nbsp &nbsp &ltli&gt &lta href=""&gt Go West &lt/a&gt <br>
+&lt/ul&gt
+<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt/body&gt<!--/BODY-->
+<br>
+<br>
+&lt/html&gt
+</h2>
+
+<p>You would then follow your map and code pages for North, South, East, and West and fill in the links here. Or if you already coded those pages you can just fill in the links.</p>
+
+
+<p>Now that you got the hang of things Go forth and code. Code out all the pages in your map. Code out dialogue options that help you tell the story. If you go into town code different pages going out of town to ensure that the player gets to roll down a hill in a butter churn and scare the wolf. Maybe give the wolf a different option rather than falling down a chimney into a boiling pot. Most importantly code an introduction page. Like a This is my game, ready to play?</p>
+
+<p> Make it your own, and have fun. This is only the first draft so no need for it to be perfect. Remember you can correct things but you must have a thing to correct first.</p>
+
+<p style="text-align:center;"><a href="revampEighteen.html" >Ready for the Next Step?</a></p>
+
+</body>
+</html>

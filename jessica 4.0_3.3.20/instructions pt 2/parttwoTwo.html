@@ -1,0 +1,80 @@
+<!--
+in my test this centerd the unordered list as well as the bullet points.
+<style>
+	ul{
+		text-align: center;
+		list-style-position: inside;
+	}
+</style>
+
+****************************these is notes************************-->
+<!doctype html>
+<head>
+	<title>How to HTML your RPG</title>
+	<link rel="stylesheet" href="../instructionSheetStyles.css">
+
+</head>
+<!--********************break between head and body****************-->
+<body>
+
+<h1> Centering Elements </h1>
+
+<!--<img src="pics/cssPic.jpg" alt="CSS picture" width="300" hight="200">-->
+
+<p>
+Right now on our page we have a header, our h1 element. We also have paragraphs, our p element, as well as an unordered list that contains links to our other pages. That includes our ul, li, an a elements. Thats important to note, because in CSS we have to name exactly what we want to change.
+</p>
+
+<p>
+Open up your threeLittlePigsSyles.css in notepad. Under the body {padding:60px;} type the following:
+</p>
+
+<h2>
+/*
+<br>
+....................................................
+<br>
+These are notes:
+<br><br>
+.....................................................
+<br>
+*/
+<br><br>
+body{
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<!--TAB=8spaces -->	padding:60px;
+<br><br>
+}
+<br><br>
+h1{
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<!--TAB=8spaces -->	text-align:center;
+<br><br>
+}
+<br>
+</h2>
+
+<p>
+Save your CSS page. Now open any of your game html pages. Since you added a link to your stylesheet in all your pages, they all will get the same change. For me I am going to open up my momPigsHouse.html page. When you open the page up it should look something like this:
+</p>
+
+<img src="pics/centeredH1.jpg" alt="moms pig house html page with centered h1" width="300" hight="200">
+
+<p>
+See how now our h1 title Mom Pigs House is now in the center of the page instead of lined up to the left side of the page! Check some more pages and you will see now the h1 element on ALL the pages is in the center!</p>
+
+<p>After completing your victory dance lets note a few things about the CSS sheet that we just made. At the top of the CSS page there is this tag.</p>
+
+<h2> /* content goes here */ </h2>
+
+<p> To make notes in CSS (a cascading style sheet) you need to use this tag so that what you type does not affect your code. It is the same as the &lt!-- content goes here --&gt tag that you use to make notes in HTML. Each new coding language you learn will have its own set of unique tags to create notes. When learning new langauges be sure to find out what they are for that specific language. I added ................ inside my notes tags just to make the block where I make notes more visible for me. Visibility is the same reason why I have indented padding as well as text-align. I know as I add more items to alter it will be easier for me to keep track of what is what If I add spaces and indents to make things easier for me to see.
+</p>
+
+<p>
+Another thing to note is text-align. In html we have our elements like paragraph (p) and header (h1). In CSS we have properties like text-align and font-size. Its hard to remember all the different CSS properties for all HTML elements, but a quick google search <a href="https://www.google.com/search?rlz=1C1GCEA_enUS804US807&ei=7Zb4X-rMH8OJ5wLog6GoBg&q=how+to+center+text+for+h1+in+css&oq=how+to+center+text+for+h1+in+css&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0CMgUIABDNAjIFCAAQzQI6BAgAEEc6BAgAEEM6AggAOgYIABAHEB46CAgAEAgQBxAeUJl8WI_ZAWDx5gFoAHACeACAAbIBiAG8BJIBAzYuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwiq9-bn7ozuAhXDxFkKHehBCGUQ4dUDCA0&uact=5" target="_blank">(like this one)</a> typically gets you all the info you need. My google searches also usually have  information from <a href="https://www.w3schools.com/" target="_blank">w3schools</a> come up in the first few search results, remember them from part one? I consider them a great resource as well.
+</p>
+
+<p style="text-align:center;"><a href="parttwoThree.html">Ready for the Next Step?</a></p>
+
+</body>
+</html>

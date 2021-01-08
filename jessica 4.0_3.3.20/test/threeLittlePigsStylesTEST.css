@@ -1,0 +1,106 @@
+/*https://www.w3schools.com/colors/colors_mixer.asp  :color mixer
+
+https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally   :how to center an iframe horizontaly, not sure why it works, but it worked
+
+https://www.w3schools.com/cssref/pr_text_text-align.ASP   :how to align headers
+
+
+COPY FOR IMAGE COMPASS:
+<table class="centertable">
+ <tr>
+  <th> </th>
+  <th>  </th>
+  <th>   </th>
+ </tr>
+
+ <tr>
+  <td></td>
+  <td> ... <img src="north.gif" alt="north" width="40px" hight="40px"> </a></td>
+  <td></td>
+ </tr>
+
+ <tr>
+  <td> ... <img src="west.gif" alt="west" width="60px" hight="60px"> </a></td>
+  <td> ... <img src="end.gif" alt="the end" width="60px" hight="60px"></td>
+  <td> ... <img src="east.gif" alt="east" width="60px" hight="60px"> </a></td>
+ </tr>
+
+<tr>
+  <td></td>
+  <td> ... <img src="south.gif" alt="south" width="60px" hight="60px"> </a></td>
+  <td></td>
+ </tr>
+</table>  
+	
+
+COPY FOR CSS LINK:
+<link rel="stylesheet" href="threeLittlePigsStylesTEST.css">
+
+
+BLANK IFRAME:
+<iframe src="" frameBorder="5" class="giphy-embed" allowFullScreen;></iframe>
+
+
+NOTES FROM FIRST PAGE:
+
+<!--so for the test i made a giphy https://giphy.com/ account InfinityPi  clubmembersreplacementdrive@gmail.com VNCdidn'tw0rk
+
+original NSEW links in unordered list
+<ul>
+    <li> <a href="rollingHillsDropOff.html"> Go North </a></li>
+    <li> <a href="pathToTown.html"> Go South </a></li>
+    <li> <a href="momPigsHouseWell.html"> Go East </a></li>
+    <li> <a href="foodShed.html"> Go West </a></li>
+</ul>
+
+https://www.w3schools.com/css/css_table.asp   :making a table
+
+https://www.w3schools.com/html/html_links.asp  :making images links
+
+Need to research Div and Float:
+https://www.w3schools.com/html/html_blocks.asp   :div
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ -->
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+*/
+
+body{
+	background-color:#ffe6e6;
+	font-size: 20px;
+	color:#ff9999;
+	padding:100px;
+
+}
+
+iframe{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border: 50px solid #ff9999;
+}
+
+
+
+h1{
+	text-align:center;
+} 
+
+
+
+p{
+	text-align:justify; 
+	
+}
+
+
+
+.centertable{
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+
