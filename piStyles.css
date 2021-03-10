@@ -20,6 +20,10 @@ https://www.w3schools.com/howto/howto_css_table_center.asp
 how to float an image to the right or left of text:
 https://www.w3schools.com/html/html_images.asp
 
+how to add an email link:
+((not sure if this actually works))
+https://www.tutorialspoint.com/html/html_email_links.htm
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
@@ -53,6 +57,22 @@ a:active {
 p {
 	font-size:20px;
 	text-align:center;
+}
+
+.initiation{
+	font-size:30px;
+}
+
+.color{
+	color:#cd5c5c;
+}
+
+ul{
+	font-size:20px;
+}
+
+li{
+	padding:5px;
 }
 
 h1{
