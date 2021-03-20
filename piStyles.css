@@ -24,9 +24,14 @@ how to add an email link:
 ((not sure if this actually works))
 https://www.tutorialspoint.com/html/html_email_links.htm
 
+how to set width and height in tables
+https://www.w3schools.com/css/css_table_size.asp
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
+secret links:
+    to the pie dev: its the period after welcome on our homepage
+    to the welcome page: its the ! at the end of good luck
 ..........................................................
 */
 
@@ -43,7 +48,7 @@ a:link {
 }
 
 a:visited {
-	color:thistle;
+	color:#9e619e;
 }
 
 a:hover {
@@ -72,7 +77,7 @@ ul{
 }
 
 li{
-	padding:5px;
+	padding:10px;
 }
 
 h1{
@@ -82,4 +87,18 @@ h1{
 table{
 	margin-left:auto;
 	margin-right:auto;
+	padding: 20px;
+	/*width:1500px;
+	height:1000px;*/
+	font-size:20px;
+}
+td{
+	padding:10px;
+}
+
+#blk{
+	background-color:red;
+}
+#gry{
+	background-color: tan;
 }
