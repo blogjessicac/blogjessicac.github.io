@@ -1,0 +1,39 @@
+/*
+...............................................................
+These are notes:
+
+1) https://www.w3schools.com/   a website where I can learn more about html and css.
+
+2) color picker: https://htmlcolorcodes.com/color-picker/
+
+3) how to do link colors: https://www.w3schools.com/html/html_links_colors.asp
+
+..............................................................
+*/
+
+body{
+	padding:60px;
+	color:#69611A;
+	background-color:#ECD512;}
+
+p{	font-size:40px;
+	text-align:center;}
+
+a:link{	color:#A8980E;}
+a:visited{	color:#A8980E;}
+a:hover{	color:#F4DB03;}
+a:active{	color:#F4DB03;}
+
+h1{ }
+
+p{ }
+
+tr{ }
+th{ }
+td{ }
+
+/*  &&&&&&&&&&& One Time Id's &&&&&&&&&&&&&   */
+#gameStart{	font-size:30px;
+		text-align:center;}
+#gameStart2{	text-align:center;
+		font-size:50px;}
