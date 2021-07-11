@@ -1,0 +1,17 @@
+/* ..................................
+these is notes:
+
+....................................... */
+
+body{
+	padding:60px;
+	color:#69611A;
+	background-color:#ECD512;
+}
+
+p{	font-size:20px;}
+
+a:link{	color:#A8980E;}
+a:visited{	color:#A8980E;}
+a:hover{	color:#F4DB03;}
+a:active{	color:#F4DB03;}

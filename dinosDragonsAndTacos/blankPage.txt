@@ -1,0 +1,48 @@
+<Doctype html>
+<html>
+<head>
+
+<title>Dinos, Dragons & Tacos!</title>
+
+<link rel="stylesheet" href="../myFirst.css">
+
+</head>
+<body>
+
+<h1> </h1>
+
+<p> </p>
+
+<table>
+<!-- EMPTY TABLE HEADERS (THREE) -->
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+<!-- TOP OPTION (MIDDLE SPOT) -->
+<tr>
+<td></td>
+<td><a href=" " > TOP OPTION </a></td>
+<td></td>
+</tr>
+
+<!-- MIDDLE LEFT AND RIGHT OPTIONS (TOP AND BOTTOM SPOTS) -->
+<tr>
+<td><a href=" ">LEFT OPTION  </a></td>
+<td><a href=""> MIDDLE OPTION </a></td>
+<td><a href=" "> RIGHT OPTION </a></td>
+</tr>
+
+<!-- BOTTOM OPTION (MIDDLE SPOT) -->
+<tr>
+<td></td>
+<td><a href=" "> BOTTOM OPTION </a></td>
+<td></td>
+</tr>
+
+</table
+
+</body>
+</html>
