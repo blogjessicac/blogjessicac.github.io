@@ -1,6 +1,9 @@
 /* ..................................
 these is notes:
 
+line height
+https://www.computerhope.com/issues/ch001662.htm
+
 ....................................... */
 
 body{
@@ -9,7 +12,9 @@ body{
 	background-color:#ECD512;
 }
 
-p{	font-size:20px;}
+p{	font-size:25px;
+	word-spacing:5px;
+	line-height:1.5em;}
 
 a:link{	color:#A8980E;}
 a:visited{	color:#A8980E;}
