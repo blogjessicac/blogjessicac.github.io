@@ -1,0 +1,15 @@
+<Doctype html>
+<html>
+<head>
+
+<title>Dinos, Dragons & Tacos!</title>
+
+<link rel="stylesheet" href="myFirst.css">
+
+</head>
+<body>
+
+<a href=""><img src="dinoExtras/ " alt="invite" width="" height=""></a>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+coverPage---blog+++gameStart
+
+gameStart--- pg1(invite closed --- pg2(invite open

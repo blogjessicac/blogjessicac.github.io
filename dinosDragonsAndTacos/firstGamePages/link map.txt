@@ -1,0 +1,44 @@
+coverPage---blog+++gameStart
+
+gameStart---pen1++roe1++tny1++hnk1
+
+***I hate everything past this part!!!!!! I hate it soooo much****
+
+tny1---+++tny2
+tny2---+++theTacoParty
+
+roe1---+++roe2
+roe2---+++theTacoParty
+
+hnk1---+++hnk2
+hnk2---+++theTacoParty
+
+pen1---+++pen2
+pen2---+++theTacoParty
+
+theTacoParty---+++theTacoParty2.html
+theTacoParty3---+++tny3, roe3, hnk3, pen3
+
+tny3---+++theTacoParty4
+roe3---+++theTacoParty4
+hnk3---+++theTacoParty4
+pen3--+++theTacoParty4
+
+theTacoParty4---+++tny4, roe4, hnk4, pen4
+
+tny4---+++theTacoParty5
+roe4---+++theTacoParty5
+hnk4---+++theTacoParty5
+pen4---+++theTacoParty5
+
+theTacoParty5---+++roe5, pen5, hnk5
+
+
+
+
+
+
+
+
+
+
