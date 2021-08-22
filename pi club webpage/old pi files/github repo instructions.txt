@@ -1,0 +1,30 @@
+thegitdown100@gmail.com
+
+githubP@ges
+
+july 29 1980
+
+/////////
+
+githubP@ges100
+
+OOCadventures (our own code)
+
+https://docs.github.com/en/get-started/quickstart/create-a-repo
+
+create a repo***
+commit your first change***
+
+https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository
+
+cloaning a repository
+	gitbash? ((a download))
+..........................................................................
+what  is github?
+	GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project. ( https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/ )
+
+what is git repository?
+	Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. ( https://en.wikipedia.org/wiki/Git )
+
+what are github pages?
+	You can use GitHub Pages to host a website about yourself, your organization, or your project directly from a GitHub repository. GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see "GitHub's products." ( https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages )
